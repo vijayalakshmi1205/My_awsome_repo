@@ -1,8 +1,14 @@
 **Create your website on AWS using Terraform in S3_Bucket**
+
+
+
+
 PREREQUISITES
-1.AWS account 
-2.Terrform installed
-3.AWSCLI installed
+1.AWS account.
+
+2.Terrform installed.
+
+3.AWSCLI installed.
 
 
 STEPS:
