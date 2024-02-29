@@ -4,6 +4,7 @@
 
 
 PREREQUISITES
+
 1.AWS account.
 
 2.Terrform installed.
