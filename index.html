@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Additional styles */
+        #portfolio-image {
+            width: 100%;
+            max-width: 600px;
+            margin: 20px auto;
+            display: block;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1s ease-out;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to John's Portfolio</h1>
+    </header>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1: Responsive Website</h3>
+            <p>Description: This project involved creating a responsive website using HTML, CSS, and JavaScript.</p>
+            <p><a href="#">View Project</a></p>
+        </div>
+        <div class="project">
+            <h3>Project 2: E-Commerce Application</h3>
+            <p>Description: Developed an e-commerce application using React.js and integrated with Firebase for backend services.</p>
+            <p><a href="#">View Project</a></p>
+        </div>
+    </section>
+    <img id="portfolio-image" src="path_to_your_image.jpg" alt="Portfolio Image">
+    <section id="reviews">
+        <h2>Client Reviews</h2>
+        <div class="review">
+            <blockquote>
+                "John's work is exceptional! He delivered the project before the deadline and exceeded our expectations."
+            </blockquote>
+            <p>- Alice, CEO of ABC Inc.</p>
+        </div>
+        <div class="review">
+            <blockquote>
+                "I highly recommend John for any web development projects. His attention to detail and professionalism are commendable."
+            </blockquote>
+            <p>- Bob, CTO of XYZ Corp.</p>
+        </div>
+        <div class="review">
+            <blockquote>
+                "I highly recommend John for any web development projects. His attention to detail and professionalism are commendable."
+            </blockquote>
+            <p>- Bob, CTO of XYZ Corp.</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 John's Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
